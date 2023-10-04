@@ -1,9 +1,11 @@
-
+import logo from '../../../assets/logo.png'
 
 const Header = () => {
     return (
         <div>
-            <h3 className="text-3xl">Header</h3>
+            <img src={logo} alt="" />
+            <p>Journalism Without Fear or Favour</p>
+            <p className='text-xl'>Sunday, November 27, 2022</p>
         </div>
     );
 };
